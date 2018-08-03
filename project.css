@@ -1,0 +1,95 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+header{
+	/*background-color: wheat;*/
+	padding: 20px;
+	height: 600px;
+	background-image: url(https://www.niceworkdone.com/wp-content/uploads/2016/03/web-developers.jpg);
+	background-repeat: none;
+	background-size: cover;
+	/*background-position: center;*/
+	position: relative;
+}
+nav img{
+    width: 60px;
+    border-radius: 50px;
+    margin-left: 70px;
+}
+nav h2{
+	
+	display: inline-block;
+}
+nav ul{
+	display: inline-block;
+	float : right;
+	padding: 15px;
+    background-color: black;
+    opacity: 0.75;
+    width: 20%;
+    text-align: center;
+}
+li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+li{
+	display: inline-block;
+	margin-right: 20px;
+}
+section{
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	font-weight: bold;
+	/*font-size: 50px;*/
+	/*transform: translate(50%,50%);*/
+}
+section .designation{
+    font-weight: bold;
+    font-size: 40px;
+    color: brown;
+}
+.designation p{
+    font-size: 20px;
+    text-align: center;
+    color: #a7407e;
+    padding-bottom: 20px;
+}
+.designation h1{
+	padding-bottom: 15px;
+    color: rgba(29, 7, 3, 0.5);
+}
+.social-media{
+   text-align: center;
+}
+.social-icons{
+    /*border: 1px solid white;*/
+    width: 30px;
+    /* height: 30px; */
+    /* vertical-align: middle; */
+    font-size: 25px;
+    /*border-radius: 20px;*/
+    /*background-color: white;*/
+    color: rgb(59, 89, 152);
+    margin-right: 20px;
+}
+a{
+	text-decoration: none;
+}
+footer {
+	text-align: center;
+    background-color: #a65a3a;
+    color: white;
+    height: 150px;
+    padding: 25px;
+}
+footer p{
+	padding: 25px;
+}
+footer a{
+	color: white;
+
+}
